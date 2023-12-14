@@ -1,15 +1,18 @@
 import Hero from "./components/Hero";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+import { SliderData } from "./components/SliderData";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <Navbar />
       <Hero
         heading="ShutterVerse: Capturing Dreams"
-        message="Capturing Moments, Creating Memories - Your Story Through My Lens."
+        message="Capturing Moments, Creating Memories."
       />
-    </main>
+      <Slider slides={SliderData} />
+    </div>
   );
 }
