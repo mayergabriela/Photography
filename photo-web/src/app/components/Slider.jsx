@@ -21,9 +21,10 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div id="gallery">
-      <h1>Gallery</h1>
-      <div>
+    <div id="gallery" className="max-w-[1240px] mx-auto">
+      <h1 className="p-4 text-2xl font-bold text-center">Gallery</h1>
+      <div className="relative flex justify-center p-4">
+        
         {SliderData.map((slide, index) => {
           return (
             <div
