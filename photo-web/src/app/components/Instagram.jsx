@@ -15,7 +15,7 @@ export const Instagram = () => {
       <p>Follow me on Instagram</p>
       <p>@ShutterVerse</p>
       <div>
-        <InstagramImg  />
+        <InstagramImg socialImg={img1} />
       </div>
     </div>
   );
