@@ -1,0 +1,15 @@
+import React from "react";
+import Hero from "./app/components/Hero";
+
+const work = () => {
+  return (
+    <div>
+      <Hero
+        heading="My Work"
+        message="Thius is some of my recent work traveling the world."
+      />
+    </div>
+  );
+};
+
+export default work;
