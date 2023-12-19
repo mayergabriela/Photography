@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import { SliderData } from "./components/SliderData";
-import { Instagram } from "./components/Instagram";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         message="Capturing Moments, Creating Memories."
       />
       <Slider slides={SliderData} />
-      <Instagram />
+      <Contact />
     </div>
   );
 }
